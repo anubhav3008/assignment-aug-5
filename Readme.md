@@ -1,7 +1,9 @@
 ## Assignments
 Please consider using github code spaces for better visual aid. 
 Creating code space on master will open visual studio code on browser.
-![image](code_space.png)
+
+<img src="code_space.png"  width="600px">
+
 ### Assignment # 1:  Hashcode and equals
 #### Question: 
 Consider two classes below: 
