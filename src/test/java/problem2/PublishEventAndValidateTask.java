@@ -3,6 +3,7 @@ package problem2;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 
+// Helper class to spawn threads
 class PublishEventAndValidateTask implements Runnable{
     private static Logger logger =  Logger.getLogger(PublishEventAndValidateTask.class);
     private int numberOfIterationsInThread;

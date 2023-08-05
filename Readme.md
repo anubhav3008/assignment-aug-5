@@ -94,6 +94,6 @@ Checkout following class for solution:
 - Accuracy is kept paramount, and we assert at every step to make sure the values are correct.  
 
 ### Other useful information
-**Testing framework**:  Junit 
-**Logging framework**:  log4j 
+**Testing framework**:  Junit  <br>
+**Logging framework**:  log4j <br>
 **dependency management**:  maven

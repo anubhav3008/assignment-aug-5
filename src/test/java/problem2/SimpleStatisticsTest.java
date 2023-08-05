@@ -10,6 +10,10 @@ import java.util.concurrent.*;
 public class SimpleStatisticsTest {
 
     private static Logger logger =  Logger.getLogger(SimpleStatisticsTest.class);
+
+    // create a stats object and publish 100 events at concurrency level of 100.
+    // add assertions at each steps of publish.
+    // final count of the stats array must be 100 * 100
     @Test
     public void publishEventAndValidate() throws InterruptedException, NoSuchFieldException, IllegalAccessException {
         int loopIterations = 100;
