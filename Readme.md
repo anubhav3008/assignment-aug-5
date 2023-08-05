@@ -34,6 +34,9 @@ Checkout class
 |-------------------------------------------------------|---------------------------------------------------------------|
 | [Employee.java](src/main/java/problem1/Employee.java) | [EmployeeTest.java](src/test/java/problem1/EmployeeTest.java) | 
 | [Person.java](src/main/java/problem1/Person.java)     | [PersonTest.java](src/test/java/problem1/PersonTest.java)     | 
+
+<br>
+
 **Explanation**:
 The solution is straightforward by adding the neccesory checks in equals and hashcode. 
 
@@ -89,3 +92,8 @@ Checkout following class for solution:
 - The testing is done using the class [SimpleStatisticsTest.java](src/test/java/problem2/SimpleStatisticsTest.java)
 - Testing is done with concurrency level of 100, where we have 100 threads trying to update and read the data together.  
 - Accuracy is kept paramount, and we assert at every step to make sure the values are correct.  
+
+### Other useful information
+**Testing framework**:  Junit 
+**Logging framework**:  log4j 
+**dependency management**:  maven
